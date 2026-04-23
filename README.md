@@ -78,18 +78,27 @@ python scripts/05_figures.py
 ---
 
 ## Project Structure
+
+```
 ngs-sensitivity-benchmark/
 ├── README.md
 ├── environment.yml
 ├── scripts/
+│   ├── 01_liftover.sh
+│   ├── 02_intersect_bed.sh
 │   ├── 03_simulate_assay.py
 │   ├── 04_benchmark.py
 │   └── 05_figures.py
+├── data/
+│   └── liftover/
+│       ├── practice_panel_hg19.bed
+│       └── practice_panel_hg38.bed
 ├── results/
 │   ├── benchmark_stats.csv
 │   ├── figure1_sensitivity_specificity.png
 │   └── figure2_variant_counts.png
 └── .gitignore
+```
 
 ---
 
